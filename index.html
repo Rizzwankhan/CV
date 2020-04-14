@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Rizwan CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Unique - Responsive vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Unique, portfolio" />
+    <meta name="author" content="lmtheme" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/transition-animations.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main-red.css" type="text/css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- This styles needs for demo -->
+    <link rel="stylesheet" href="preview/lmpixels-demo-panel.css" type="text/css">
+    <style>
+        table td {
+  border: 1px solid black; 
+}
+.circular--square{
+    border-radius:50% !important;
+}
+ 
+@media screen and (min-width: 28.75em) {
+  #page-ajax-loaded {
+      top: 4px !important;
+    width:92% !important;
+  }
+}
+/*Display 6 to a row for large displays (like medium tablets and up) */
+@media screen and min-width: 40.5em) {
+  .home-page-block h2 {
+    text-align:center;
+  }
+}
+@media screen and (min-width: 28.75em) {
+  .pt-page pt-page-5 {
+
+    margin:0px !important;
+    
+  }
+}
+@media screen and (max-width: 28.75em) {
+  .portfolio_grid figure {
+
+    margin-right:20px !important;
+    
+  }
+    
+  }
+}
+
+/*Display 6 to a row for large displays (like medium tablets and up) */
+@media screen and (min-width: 40.5em) {
+  .pt-page pt-page-5 {
+    margin:0px !important;
+  }
+}
+@media (max-width:768px){
+    #page-ajax-loaded {
+        margin-left: 23px !important;
+    }
+    .portfolio-page-video{
+    margin-left: -9px;
+    }
+}
+
+@media (max-width:769px){
+    .responsive{
+    display:block !important;
+    margin:0 auto !important;
+}
+.heading{
+    text-align:center !important;
+    color:#4281f5 !important; 
+     background-color:#C0C0C0 !important;
+}
+.para{
+    margin-left:30px !important;
+
+}
+.linkedin{
+    font-size:14px !important;
+}
+#button{
+    display:none !important;
+}
+.portfolio-grid figure a {
+    width:76% !important;
+}
+#page-ajax-loaded{
+   width: 100% !important;
+    left: -6.45% !important; 
+}
+.portfolio-page-carousel .owl-dots {
+    bottom: 81% !important;
+    left: 33% !important;
+}
+}
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px)  
+{ 
+    #page-ajax-loaded {
+    left: -3% !important;
+    }
+} 
+@media (min-width:769px){
+    .heading{
+    color:#4281f5 !important; 
+    background-color:#C0C0C0 !important;
+    padding:10px !important;
+    text-align: center;
+    width:80% !important;
+}
+}
+
+
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s;
+  z-index: 1000;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+
+
+    </style>
+    <!-- /This styles needs for demo -->
+<script>
+
+jQuery(document).ready(function() {
+  
+  var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
+});
+
+</script>
+
+
+    <script>
+        var media1 = new Audio();
+        media1.src = "media1.mp3";
+    </script>
+     <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','../../../../www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-96534204-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "index-light.html#home";
+    };
+</script>
+   
+  </head>
+
+  <body>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="dot1" style="background-color:#4281f5 !important;"></div>
+        <div class="dot2" style="background-color:#4281f5 !important;"></div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide header-color-light" style="background-color: #222222 !important; width:160px !important;">
+        <div class="my-photo tilt-effect" style="max-width:140px !important; max-height:150px !important;">
+          <img class="circular--square" src="images/profile.png" style="height:120px !important; width:140px !important;"/>
+        </div>
+
+        <div class="site-title-block" style="margin:18px 0px 5px !important;">
+          <h1 class="site-title" style="font-size:24px !important;"><b>Rizwan Khan</b></h1>
+        </div>
+<script>
+    function jsfunction(){
+
+        document.getElementById('mCSB_2_container').style.top='0';
+        document.getElementById("mCSB_2_container").style.position = "Relative";
+         
+    }
+    function jsresume(){
+
+        document.getElementById('mCSB_3_container').style.top='0';
+        document.getElementById("mCSB_3_container").style.position = "Relative";
+         
+    } 
+    function jsportfolio(){
+
+        document.getElementById('mCSB_4_container').style.top='0';
+        document.getElementById("mCSB_4_container").style.position = "Relative";
+         
+    }
+    
+</script>
+        <!-- Navigation -->
+        <div class="site-nav" style="color:white !important; border-color:grey !important;">
+          <!-- Main menu -->
+          <ul id="nav" class="site-main-menu" style="color:white !important;">
+            <li style="color:white !important;">
+              <a class="pt-trigger" href="#home" data-animation="21" onmousedown="media1.play()" style="color:white !important; border-color:grey !important;"><i class="menu-icon pe-7s-icon pe-7s-home"></i>Home</a><!-- href value = data-id without # of .pt-page. -->
+            </li>
+            <li>
+              <a class="pt-trigger" id="mabout" onclick="jsfunction()" href="#about_me" data-animation="19" onmousedown="media1.play()" style="color:white !important; border-color:grey !important;"><i class="menu-icon pe-7s-icon pe-7s-user"></i>About me</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#resume" onclick="jsresume()" data-animation="18" onmousedown="media1.play()" style="color:white !important; border-color:grey !important;"><i class="menu-icon pe-7s-icon pe-7s-id"></i>Resume</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#portfolio" id="mportfolio" onclick="jsportfolio()" data-animation="17" onmousedown="media1.play()" style="color:white !important; border-color:grey !important;"><i class="menu-icon pe-7s-icon pe-7s-portfolio"></i>Portfolio</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#contact" data-animation="20" onmousedown="media1.play()" style="color:white !important; border-color:grey !important;"><i class="menu-icon pe-7s-icon pe-7s-mail"></i>Contact</a>
+            </li>
+          </ul>
+          <!-- /Main menu -->
+        </div>
+        <!-- Navigation -->
+      </header>
+      <!-- /Header -->
+
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title text-center" style="font-size:23px !important;">Rizwan Khan</div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper" style="background-image: url(images/Picture1.png);">
+          <!-- Subpages -->
+          <div class="subpages" style="display: contents;">
+
+            <!-- Home Subpage -->
+            <section class="pt-page pt-page-1 section-without-bg section-paddings-0 table" data-id="home">
+              <div class="section-inner" style="text-align:center !important;">
+                <div class="home-page-block">
+                  <h2 style="color:#4281f5 !important;">Rizwan Khan</h2>
+                  <div class="owl-carousel text-rotation">                                    
+                    <div class="item">
+                      <p class="home-page-description">Analytics Professional</p>
+                    </div>
+                    <div class="item">
+                      <p class="home-page-description">Data Scientist</p>
+                    </div>
+                    <div class="item">
+                      <p class="home-page-description">Machine Learning Enthusiast</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End of Home Subpage -->
+              <!-- About Me Subpage -->
+              <section class="pt-page pt-page-2 left-right-styling" data-id="about_me" style="background-color:rgb(249,249,249);  min-height: unset !important; height:95% !important; bottom:2% !important;">
+                  <div class="border-block-top-110" style="border-left: 3px solid #4281f5 !important;  border-top: 3px solid #4281f5 !important;"></div>
+                  <div class="section-inner">
+                      <div class="section-title-block">
+                          <div class="section-title-wrapper clearfix">
+                              <h2 class="section-title" style="color:#A9A9A9 !important; font-size:40px !important;">About Me</h2>
+
+                          </div>
+                      </div>
+
+                      <div class="row">
+                          <div class="col-sm-6 col-md-6 col-lg-4 subpage-block">
+                              <div class="my-photo-block tilt-effect">
+                                  <img src="images/Rizwan Khan.jpg" class="responsive"  alt="" style="height:260px; width:250px;">
+                              </div>
+                          </div>
+
+                          <div class="col-sm-6 col-md-6 col-lg-8">
+                              <b><h2 class="heading">Analytics Manager @ AYM Commerce</h2></b>
+                              <p>I have 10+ years of experience in understanding and managing client expectations.<br> Coordinating with customers and identifying solutions to their queries for improving functionality<br> and delivery service quality.<br>
+                              <p>Have worked in different domains like:</p>
+                              <ul>
+                                  <li>Healthcare Analytics [Payer & Provider, ]</li>
+                                  <li>FMCG / CPG Analytics [ Personal Care, Home Care & ]</li>
+                                  <li>Telecom Analytics [ CLM, CVM, Churn Management ]</li>
+                                  <li>Loyalty Analytics.</li>
+                              </ul>
+
+                          </div>
+
+
+                      </div>
+                      <div class="block-title">
+                          <ul class="social-links">
+                              <li><a class="tip social-button" href="#" title="phone" style="width:48px !important; height:48px !important;"><i class="fa fa-phone" style="color:#4281f5 !important;
+                      background-color: transparent !important;font-size:44px !important;"></i></a></li>
+                              <p style="margin-top: -48px;" class="para"><span style="margin-left: 5%">+966-568.395.886</span><br><span style="margin-left: 5%">+91-8884.786.555</span>
+                                  <br>
+                              <li><a class="tip social-button" href="#" title="email" style="background-color: transparent !important; width:48px !important; height:48px !important;"><i class="fa fa-envelope" style="color:#4281f5 !important; background-color: transparent !important;font-size:44px !important;"></i></a></li>
+                              <span>Rizzwankhan@gmail.com</span><br>
+                              <img src="images/download (3).jpg" style="height:56px; width:54px; padding-top:1% !important;"><span ><a href="https://www.linkedin.com/in/rizzwankhan/" style="color:#4281f5 !important; " class="linkedin"> https://www.linkedin.com/in/rizzwankhan</a></span>
+                              </p>
+                              <br>
+
+
+                          </ul>
+
+                      </div>
+
+                   
+
+                      <!-- Clients block -->
+                      <div class="block-title">
+                          <h3>Tools</h3>
+                      </div>
+                      <div class="row">
+                          <p>Teradata,  SQL,  MYSQL,  Toad,  Tableau Desktop,  Tableau Prep & Tableau Online,  Power BI,  Advanced Excel,  VA,  Python,  SAS base.</p>
+                      </div>
+                      <div class="block-title">
+                          <h3>Skills</h3>
+                      </div>
+                      <div class="row">
+                          <p> Solving the Problem, Data Analysis & Insights generation,  Visualization,  Automation,  Machine Learning,   Intellectual curiosity,  Communication skills,  Business acumen.  </p>
+                      </div>
+                      <div class="block-title">
+                          <h3>Interests</h3>
+                      </div>
+                      <div class="row">
+                          <p> Inspiration quotes  & Reading motivational,  tech blogs  & Swimming.</p>
+                      </div><br>
+                      <div class="block-title">
+                          <h3>ACADEMIC & PROFESSIONAL ACHIEVEMENTS</h3>
+                      </div>
+                      <div class="row">
+                          <ul>
+                              <li>A gift from Client (UCB) for <b>‘Over and above’</b> delivery of numerous projects. (IMS Health)</li>
+                              <li><b>‘Client First’</b> award from Philips Client (Fractal)</li>
+                              <li>Star award of the Quarter (Fractal)</li>
+                              <li>I was awarded in IMS for <b>‘Operational Excellence’</b>. (IMS Health)</li>
+                              <li>I was awarded in IMS for <b>‘Positive Energy’</b> in the Team. (IMS Health)</li>
+
+                              <li>Multiple appreciation mails in 3 years from the business stake holders. (IMS Health)</li>
+                              <li>Topper in iACE training of Novo Nordisk. (Novo Nordisk)</li>
+                              <li>I was awarded Medal & a Distinction certificate during my Masters.</li>
+                          </ul>
+                      </div>
+
+                  </div>
+
+            </section>
+              <!-- End of About Me Subpage -->
+            <!-- Resume Subpage -->
+              <section class="pt-page pt-page-2 left-right-styling" data-id="resume" style="background-color:rgb(250, 250, 250);  min-height: unset !important; height:95% !important; bottom:2% !important;">
+                  <div class="border-block-top-110" style="border-left: 3px solid #4281f5 !important;  border-top: 3px solid #4281f5 !important;"></div>
+                  <div class="section-inner">
+                      <div class="row" style="width:90%;margin-left:5%">
+                          <div class="col-sm-12 subpage-block" style="margin-top:20px !important;">
+                              <img src="cv/cv-1.png" class="img img-responsive">
+                          </div>
+                          <div class="col-sm-12">
+                              <img src="cv/cv-2.png" class="img img-responsive">
+                          </div>
+                          <div class="col-sm-12 col-md-12 text-center">
+                              <div class="download-cv-block">
+                                  <a class="button" target="_blank" href="pdfcvfiles/cv.pdf" download><i class="fa fa-download"></i>&nbsp;&nbsp;Download CV</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+            <!-- End Resume Subpage -->
+            <!-- End Resume Subpage -->
+            <!-- Portfolio Subpage -->
+            <section class="pt-page pt-page-4 left-right-styling" data-id="portfolio" style="background-color:rgb(249,249,249);  min-height: unset !important; height:95% !important; bottom:2% !important;">
+              <div class="border-block-top-110" style="border-left: 3px solid #4281f5 !important;  border-top: 3px solid #4281f5 !important;"></div>
+              <div class="section-inner">
+                <div class="section-title-block">
+                  <div class="section-title-wrapper">
+                    <h4 class="section-title" style="color:#A9A9A9 !important; font-size:40px !important;">Portfolio</h4>
+                    <h5 class="section-description" style="color:#4281f5 !important; font-size:16px !important; background-color:transparent !important; font-weight:700 !important;margin-right: 16px !important;">My Best Works</h5>
+                  </div>
+                </div>
+
+                <!-- Portfolio Content -->
+                <div class="portfolio-content portfolio-links">
+                              
+                  <!-- Portfolio filter -->
+                 
+                  <!-- End of Portfolio filter -->
+
+                  <!-- Portfolio Grid -->
+                  <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+                    <!-- Portfolio Item 1 -->
+                    <figure class="item odd-item" data-groups='["all", "media"]'>
+                     
+                       <a class="ajax-page-load" href="portfolio-1.html" onmousedown="media1.play()">
+                        <img src="images/1.png" alt="" style="max-width:100% !important;">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 1 -->
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3 col-md-3">
+
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2 -->
+                    <figure class="item odd-item" data-groups='["all", "media"]'>
+
+                       <a class="ajax-page-load" href="portfolio-2.html" onmousedown="media1.play()">
+                        <img src="images/2.png" alt="" style="max-width:100% !important;">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+
+
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 2 -->
+
+                    <!-- Portfolio Item 3 -->
+                     <figure class="item odd-item" data-groups='["all", "media"]'>
+                       <a class="ajax-page-load" href="portfolio-3.html" onmousedown="media1.play()">
+                        <img src="images/3.png" alt="" style="max-width:100% !important;">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 3 -->
+
+                    <!-- Portfolio Item 4 -->
+                    <figure class="item odd-item" data-groups='["all", "media"]'>
+
+                       <a class="ajax-page-load" href="portfolio-4.html" onmousedown="media1.play()">
+                        <img src="images/4.png" alt="" style="max-width:100% !important;">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+
+
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 4 -->
+
+                    <!-- Portfolio Item 5 -->
+                    <figure class="item odd-item" data-groups='["all", "media"]'>
+                     
+                       <a class="ajax-page-load" href="portfolio-5.html" onmousedown="media1.play()">
+                        <img src="images/5.png" alt="" style="max-width:100% !important;">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          
+                        
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 5 -->
+
+                    <!-- Portfolio Item 6 -->
+                    <figure class="item odd-item" data-groups='["all", "media"]'>
+                     
+                       <a class="ajax-page-load" href="portfolio-6.html" onmousedown="media1.play()">
+                        <img src="images/6.png" alt="" style="max-width:100% !important;">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          
+                
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 6 -->
+
+                    <!-- Portfolio Item 7 -->
+                    <figure class="item odd-item" data-groups='["all", "media"]'>
+                     
+                       <a class="ajax-page-load" href="portfolio-7.html" onmousedown="media1.play()">
+                        <img src="images/7.png" alt="" style="max-width:100% !important;">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          
+                
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 7 -->
+
+                    <!-- Portfolio Item 8 -->
+                    <figure class="item odd-item" data-groups='["all",  "media"]'>
+                     <a class="ajax-page-load" href="portfolio-8.html" onmousedown="media1.play()">
+                        <img src="images/8.png" alt="" style="max-width:100% !important;">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                         
+                    
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 8 -->
+
+                    <!-- Portfolio Item 9 -->
+                    <figure class="item odd-item" data-groups='["all", "media"]'>
+                     
+                       <a class="ajax-page-load" href="portfolio-9.html" onmousedown="media1.play()">
+                        <img src="images/9.png" alt="" style="max-width:100% !important;">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                          
+                          
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 9 -->
+
+                    <!-- Portfolio Item 10 -->
+                    <figure class="item odd-item" data-groups='["all", "media"]'>
+                     
+                       <a class="ajax-page-load" href="portfolio-10.html" onmousedown="media1.play()">
+                        <img src="images/10.png" alt="" style="max-width:100% !important;">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                    
+                        
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 10 -->
+
+                    <!-- Portfolio Item 11 -->
+                    <figure class="item odd-item" data-groups='["all", "media"]'>
+                     
+                       <a class="ajax-page-load" href="portfolio-11.html" onmousedown="media1.play()">
+                        <img src="images/11.png" alt="" style="max-width:100% !important;">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                         
+                        
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Portfolio Item 11 -->
+
+                    <!-- Portfolio Item 12 -->
+                    <figure class="item odd-item" data-groups='["all","media"]'>
+                   
+                         <a class="ajax-page-load" href="portfolio-12.html" onmousedown="media1.play()">
+                        <img src="images/12.png" alt="" style="max-width:100% !important;">
+                        <div>
+                          <h5 class="name">Project Name</h5>
+                        
+                          
+                        </div>
+                      </a>
+                    </figure>
+
+
+                    <!-- /Portfolio Item 12 -->
+                  </div>
+                  <!-- /Portfolio Grid -->
+
+                </div>
+                <!-- /Portfolio Content -->
+              </div>
+            </section>
+            <!-- /Portfolio Subpage -->
+            <!-- Contact Subpage -->
+            <section class="pt-page pt-page-5 left-right-styling" data-id="contact" style="background-color:rgb(249,249,249);  min-height: unset !important; height:95% !important; bottom:2% !important;">
+              <div class="border-block-top-110" style="border-left: 3px solid #4281f5 !important;  border-top: 3px solid #4281f5 !important;"></div>
+              <div class="section-inner">
+                <div class="section-title-block">
+                  <div class="section-title-wrapper">
+                    <h2 class="section-title" style="color:#A9A9A9 !important; font-size:40px !important;">Contact</h2>
+                    <h5 class="section-description" style="color:#4281f5 !important; font-size:16px !important;">Get in Touch</h5>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6 col-md-6 subpage-block">
+                    <div class="block-title">
+                      <h3>Get in Touch</h3>
+                    </div>
+                   
+                    <div class="contact-info-block">
+                      <div class="ci-icon">
+                        <i class="pe-7s-icon pe-7s-map-marker" style="color:#4281f5 !important;"></i>
+                      </div>
+                      <div class="ci-text">
+                        <h5>Sudia Riyadh</h5>
+                      </div>
+                    </div>
+                   <div class="contact-info-block">
+                      <div class="ci-icon">
+                        <i class="pe-7s-icon pe-7s-mail" style="color:#4281f5 !important;"></i>
+                      </div>
+                      <div class="ci-text">
+                        <h5><a href="mailto:Rizzwankhan@gmail.com" class="__cf_email__" data-cfemail="f0919c9588839d998498b09588919d809c95de939f9d" style="color:#4281f5 !important;">Rizzwankhan@gmail.com</a></h5>
+                      </div>
+                    </div>
+                    <div class="contact-info-block">
+                      <div class="ci-icon">
+                        <i class="pe-7s-icon pe-7s-call" style="color:#4281f5 !important;"></i>
+                      </div>
+                      <div class="ci-text">
+                        <h5>+966-568 395886</h5>
+                      </div>
+                    </div>
+                  
+                  </div>
+
+                  <div class="col-sm-6 col-md-6 subpage-block">
+                    <div class="block-title">
+                      <h3>Contact Form</h3>
+                    </div>
+                    
+                    <form action="mail/mail.php" method="POST" id="form">
+                        
+
+                      <div class="messages"></div>
+
+                      <div class="controls">
+                        <div class="form-group">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                            <div class="form-control-border"></div>
+                            <i class="form-control-icon pe-7s-user"></i>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                            <div class="form-control-border"></div>
+                            <i class="form-control-icon pe-7s-mail"></i>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for Me" rows="4" required="required" data-error="Please, leave me a message."></textarea>
+                            <div class="form-control-border"></div>
+                            <i class="form-control-icon pe-7s-comment"></i>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    
+                        <input type="submit" class="button btn-send" value="Send message">
+                        <button type="reset" value="Reset">Reset</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+
+
+
+    <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/bootstrap.min.js"></script>
+    <script src="js/pages-switcher.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Demo Color changer Script -->
+    <script src="preview/lmpixels-demo-panel.js"></script>
+    <!-- /Demo Color changer Script -->
+  <script defer src="../../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"578e5e3908c9ca84","version":"2020.3.0","startTime":1585031684548}'></script>
+</body>
+
+<!-- Mirrored from lmpixels.com/demo/unique/unique-vcard/index-light.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Mar 2020 06:39:39 GMT -->
+</html>
